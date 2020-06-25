@@ -27,35 +27,35 @@
     <div class="container">
         <div class="grid-view">
             <div class="grid-item">
-                <img src="./loading1.jpg"/>
+                <img src="./images1.jpg"/>
                 <a href="#"><b>Mua SP này</b></a>
             </div>
             <div class="grid-item">
-                <img src="./loading1.jpg"/>
+                <img src="./images2.jpg"/>
                 <a href="#"><b>Mua SP này</b></a>
             </div>
             <div class="grid-item">
-                <img src="./loading1.jpg"/>
+                <img src="./images3.jpg"/>
                 <a href="#"><b>Mua SP này</b></a>
             </div>
             <div class="grid-item">
-                <img src="./loading1.jpg"/>
+                <img src="./images4.jpg"/>
                 <a href="#"><b>Mua SP này</b></a>
             </div>
             <div class="grid-item">
-                <img src="./loading1.jpg"/>
+                <img src="./images5.jpg"/>
                 <a href="#"><b>Mua SP này</b></a>
             </div>
             <div class="grid-item">
-                <img src="./loading1.jpg"/>
+                <img src="./images6.jpg"/>
                 <a href="#"><b>Mua SP này</b></a>
             </div>
             <div class="grid-item">
-                <img src="./loading1.jpg"/>
+                <img src="./images7.jpg"/>
                 <a href="#"><b>Mua SP này</b></a>
             </div>
             <div class="grid-item">
-                <img src="./loading1.jpg"/>
+                <img src="./images8.jpg"/>
                 <a href="#"><b>Mua SP này</b></a>
             </div>
         </div>
