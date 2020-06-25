@@ -48,7 +48,7 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO products(ProductID, ProductName, ProductDate) VALUES ('$_POST[ProductID]','$_POST[ProductName]', '$_POST[ProductDate]')";
+$sql = "INSERT INTO products(ProductID, ProductName, ProductDate) VALUES ('$_POST[product_id]','$_POST[product_name]', '$_POST[nsx]')";
 $stmt = $pdo->prepare($sql);
 
     if($stmt->execute() == TRUE){
