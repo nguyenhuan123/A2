@@ -13,9 +13,9 @@ list-style: none;
 <h1>Thêm DL vào table product</h1>
     <ul>
         <form name="InsertData" action="InsertData.php" method="POST" >
-            <li>Pruduct id:</li><li><input type="text" name="product_id" /></li>
-            <li>Product_name:</li><li><input type="text" name="product_name" /></li>
-            <li>NSX:</li><li><input type="date" name="nsx" /></li>
+            <li>Pruduct id:</li><li><input type="text" name="ProductID" /></li>
+            <li>Product_name:</li><li><input type="text" name="ProductName" /></li>
+            <li>NSX:</li><li><input type="date" name="ProductDate" /></li>
             <li><input type="submit" value="Thêm DL" /></li>
         </form>
     </ul>
@@ -48,7 +48,7 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO products(ProductID, ProductName, ProductDate) VALUES ('$_POST[product_id]','$_POST[product_name]', '$_POST[nsx]')";
+$sql = "INSERT INTO products(ProductID, ProductName, ProductDate) VALUES ('$_POST[ProductID]','$_POST[ProductName]', '$_POST[ProductDate]')";
 $stmt = $pdo->prepare($sql);
 echo($sql);
     if($stmt->execute() == TRUE){
