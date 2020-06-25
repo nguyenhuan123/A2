@@ -24,7 +24,7 @@
         ));
         }  
 
-        $sql = "SELECT * FROM products ORDER BY ProductID";
+        $sql = "SELECT * FROM products ORDER BY productid";
         $stmt = $pdo->prepare($sql);
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
         $stmt->execute();
@@ -67,9 +67,9 @@
                     ?>
                     
                     <tr>
-                        <td scope="row"><?php echo $row['ProductID'] ?></td>
-                        <td><?php echo $row['ProductName'] ?></td>
-                        <td><?php echo $row['ProductDate'] ?></td>     
+                        <td scope="row"><?php echo $row['productid'] ?></td>
+                        <td><?php echo $row['productname'] ?></td>
+                        <td><?php echo $row['productdate'] ?></td>     
                     </tr>
                     
                     <?php
