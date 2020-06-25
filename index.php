@@ -20,7 +20,7 @@
             <a href="datacenter.php" class="right">Data Center</a>
         </nav>
         <div class="banner">
-            <img src="./banner1.jpg" />
+            <img src="./banner2.jpg" />
         </div>
     </header>
     <h1>Sản phẩm nổi bật</h1>
