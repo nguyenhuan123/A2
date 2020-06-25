@@ -54,9 +54,9 @@
                 <table class="table table-bordered table-condensed">
                     <thead>
                     <tr>
-                        <th>Product_ID</th>
-                        <th>Product_name</th>
-                        <th>NSX</th>
+                        <th>ProductID</th>
+                        <th>ProductName</th>
+                        <th>ProductDate</th>
                     </tr>
                     </thead>
                     <tbody>
