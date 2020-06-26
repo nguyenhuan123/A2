@@ -35,19 +35,19 @@
     <div class="container">
         <div class="grid-view">
             <div class="grid-item">
-                <img src="./database.png"/>
+                <img src="./data.png"/>
                 <a href="#" onClick="displayData()"><b>Xem dữ liệu hóa đơn</b></a>
             </div>
             <div class="grid-item">
-                <img src="./database.png" />
+                <img src="./data.png" />
                 <a href="./InsertData.php" target="framename"><b>Thêm DL</b></a>
             </div>
             <div class="grid-item">
-                <img src="./database.png"/>
+                <img src="./data.png"/>
                 <a href="./DeleteData.php" target="framename"><b>Xóa DL</b></a>
             </div>
             <div class="grid-item">
-                <img src="./database.png"/>
+                <img src="./data.png"/>
                 <a href="UpdateData.php" target="framename"><b>Cập nhật DL</b></a>
             </div>
             <div id ="displaychange" class="grid-item">
